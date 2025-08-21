@@ -1,0 +1,6 @@
+# Example DNS Rules for NetGuard
+# Alert on DNS queries for suspicious domains
+alert dns any any -> any any (msg:"Suspicious DNS Query for example.com"; content:"example.com";)
+alert dns any any -> any any (msg:"DNS Query for .xyz TLD"; pcre:"/\.xyz$/";)
+# Alert on unusually large DNS responses
+alert dns any any -> any any (msg:"Large DNS Response"; dsize:>512;)

@@ -1,0 +1,4 @@
+/mnt/d/NetGuard-main/build/CMakeFiles/nids.dir
+/mnt/d/NetGuard-main/build/CMakeFiles/NetGuard.dir
+/mnt/d/NetGuard-main/build/CMakeFiles/edit_cache.dir
+/mnt/d/NetGuard-main/build/CMakeFiles/rebuild_cache.dir
